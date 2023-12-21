@@ -20,25 +20,14 @@
           <img src="profile.jpeg" alt="profile.jpeg" id="profile-img" />
         </div>
         <div id="intro">
-          <h1 class="text">Ryan Carney</h1>
+          <h2 class="text">Ryan Carney</h2>
           <p class="text">
             Computer Science Major at the UCLA Samueli School of Engineering
           </p>
         </div>
       </div>
-      <!-- <div class="contact-info-container">
-        <div class="contact-info-text">
-          <p>Contact me!</p>
-        </div>
-        <div class="contact-info-text">
-          <p>Email: ryancarney771@gmail.com</p>
-        </div>
-        <div class="contact-info-text">
-          <p>Phone#: (408)674-7985</p>
-        </div>
-      </div> -->
       <div class="container" id="currently">
-        <h1 class="text">Currently...</h1>
+        <h2 class="text">Currently...</h2>
         <p class="text" id="currently-text">
           I am working on my first couple of technical projects, one being this
           website. I am hoping that this project will help me learn some HTML,
@@ -58,20 +47,74 @@
       </div>
     </div>
     <div class="container" id="about-me">
-      <h1 class="text">About me</h1>
+      <h2 class="text">About me</h2>
       <p class="text">
         I am a 3rd year student at UCLA, expecting to graduate in Spring of
         2025. I have taken a few courses in C++ and Java, intro and data
         structures courses in both, and am planning to start my upper-division
-        courses at UCLA in the upcoming winter quarter.
+        courses at UCLA in the upcoming winter quarter.<span
+          class="text"
+          id="dots"
+          >..</span
+        >
+        <span class="text" id="about-me-more"
+          ><br />
+          <br />I have been teaching myself HTML, CSS, and Javascript. In fact,
+          I have used some of those skills to make this website! Although I have
+          a long way to go, I have been enjoying the journey of learning to
+          become a developer!</span
+        >
+        <button class="text" onclick="moreOrLess()" id="am-more-button">
+          Read more
+        </button>
       </p>
+    </div>
+    <div class="container" id="links">
+      <h2 class="text">My links</h2>
       <br />
-      <p class="text">
-        I have been teaching myself HTML, CSS, and Javascript. In fact, I have
-        used some of those skills to make this website! Although I have a long
-        way to go, I have been enjoying the journey of learning to become a
-        developer!
-      </p>
+      <a
+        class="anchor link float-on-hover"
+        href="https://www.linkedin.com/in/ryan-carney-a87863232/"
+        target="_blank"
+      >
+        <button class="social-button link-text text float-on-hover">
+          <img
+            src="LinkedIn.png"
+            alt="linkedin-icon"
+            class="social-photo"
+          />LinkedIn
+        </button>
+      </a>
+      <br />
+      <br />
+      <a
+        class="anchor link float-on-hover"
+        href="https://github.com/ryancarneyy"
+        target="_blank"
+      >
+        <button class="social-button link-text text float-on-hover">
+          <img
+            src="GitHub.png"
+            alt="linkedin-icon"
+            class="social-photo"
+          />GitHub
+        </button>
+      </a>
+      <br />
+      <br />
+      <a
+        class="anchor link float-on-hover"
+        href="https://www.linkedin.com/in/ryan-carney-a87863232/"
+        target="_blank"
+      >
+        <button class="social-button link-text text float-on-hover">
+          <img
+            src="LinkedIn.png"
+            alt="linkedin-icon"
+            class="social-photo"
+          />LinkedIn
+        </button>
+      </a>
     </div>
     <script src="index.js"></script>
   </body>
